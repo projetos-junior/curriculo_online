@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edson Junior - QA Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Edson Junior</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experiência</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-center text-white d-flex align-items-center justify-content-center">
+        <div class="container">
+            <!-- Informações do usuário -->
+            <h1 class="mt-4">Edson Jose Gabriel Junior</h1>
+            <p class="lead" id="typewriter">Analista de Qualidade de Software</p>
+            <p>📍 Embu das Artes/SP | 📞 (11) 98802-0276 | 📧 ejuniior@gmail.com</p>
+            <!-- Botões para LinkedIn e GitHub -->
+            <p>
+                <a href="https://linkedin.com/in/edyjunior/" class="btn btn-primary">LinkedIn</a>
+                <a href="https://github.com/projetos-junior" class="btn btn-secondary ms-2">GitHub</a>
+            </p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container py-5">
+        <h2>Sobre Mim</h2>
+        <p>Sou um profissional apaixonado por tecnologia com mais de 7 anos de experiência em TI. Busco criar soluções inovadoras e contribuir para a excelência de projetos de software.</p>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="bg-light py-5">
+        <div class="container">
+            <h2>Experiência Profissional</h2>
+            <ul>
+                <li><strong>Intervalor (Mutant)</strong> — Analista de Qualidade de Software (2023 - Atual)</li>
+                <li><strong>Assistec Informática LTDA</strong> — Analista de Service Desk II (2021 - 2023)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container py-5">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Testes Funcionais, Regressivos, e Exploratório</li>
+            <li>Postman, Jira, Xray</li>
+            <li>Scrum, Kanban</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-dark text-white py-5">
+        <div class="container text-center">
+            <h2>Contato</h2>
+            <p>Email: ejuniior@gmail.com</p>
+            <p>Telefone: (11) 98802-0276</p>
+            <p>
+                <a href="https://www.linkedin.com/in/edyjunior/" class="btn btn-primary">LinkedIn</a>
+                <a href="https://github.com/projetos-junior" class="btn btn-dark ms-2">GitHub</a>
+            </p>    
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 bg-secondary text-white">
+        <p>&copy; 2024 Edson Junior - Todos os direitos reservados.</p>
+    </footer>
+    <script src="{{ url_for('static', filename='/js/script.js') }}"></script>
+</body>
+</html>

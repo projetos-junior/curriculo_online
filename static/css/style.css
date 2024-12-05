@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #6c63ff, #3b3b98); /* Cor moderna em degradê */
+    height: 100vh; /* Altura da tela inteira */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.hero-section p.lead {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+
+/* Estilo para o texto da máquina de escrever */
+.lead {
+    font-family: 'Courier New', Courier, monospace; /* Estilo clássico de máquina de escrever */
+    font-size: 1.5rem;
+    white-space: nowrap; /* Evita que o texto quebre em várias linhas */
+    overflow: hidden; /* Esconde o texto enquanto ele "digita" */
+    border-right: 2px solid #fff; /* Cursor da máquina de escrever */
+    animation: typing 4s steps(40) infinite, blink 0.7s step-end infinite; /* Animação para o cursor */
+}
+
+/* Efeito de piscar no cursor */
+@keyframes blink {
+    from {
+        border-color: transparent;
+    }
+    to {
+        border-color: #fff;
+    }
+}
+
+.btn-primary {
+    background-color: #0077b5; /* Azul padrão do LinkedIn */
+    border-color: #0077b5;
+}
+
+.btn-dark {
+    background-color: #333; /* Preto padrão do GitHub */
+    border-color: #333;
+}
+
+.btn-dark:hover {
+    background-color: #555; /* Preto mais claro ao passar o mouse */
+    border-color: #555;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+}
